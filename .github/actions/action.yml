@@ -8,4 +8,4 @@ runs:
   using: "docker"
   image: "Dockerfile"
   args:
-  - input1: ${{ inputs.name }}
+  - ${{ inputs.name }}

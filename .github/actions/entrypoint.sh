@@ -1,1 +1,1 @@
-echo '"hai my name is asif from entrypoint.sh and i got the input $1"
+echo "hai my name is asif from entrypoint.sh and i got the input $1"

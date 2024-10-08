@@ -9,4 +9,4 @@ jobs:
     - run: ls -larth
     - uses: ./.github/actions/
       with:
-        name: "input from ci.yml"
+      - name: "input from ci.yml"

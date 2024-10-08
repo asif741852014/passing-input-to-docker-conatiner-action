@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
-      runs: actions/checkout@v4
+      run: actions/checkout@v4
     - run: ls -larth
     - uses: ./.github/actions/
       with:

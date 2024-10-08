@@ -4,6 +4,7 @@ inputs:
   name:
     required: true
     description: just demo input
+    type: string
 runs:
   using: "docker"
   image: "Dockerfile"
